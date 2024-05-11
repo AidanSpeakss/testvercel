@@ -1,12 +1,9 @@
 "use client";
 
-//@ts-nocheck
-
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
-import { TypeAnimation } from 'react-type-animation';
-
+import { TypeAnimation } from "react-type-animation";
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
   ssr: false,
@@ -44,7 +41,7 @@ export function GlobeDemo() {
       endLat: -22.9068,
       endLng: -43.1729,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 1,
@@ -53,7 +50,7 @@ export function GlobeDemo() {
       endLat: 3.139,
       endLng: 101.6869,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 1,
@@ -62,7 +59,7 @@ export function GlobeDemo() {
       endLat: -1.303396,
       endLng: 36.852443,
       arcAlt: 0.5,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 2,
@@ -71,7 +68,7 @@ export function GlobeDemo() {
       endLat: 35.6762,
       endLng: 139.6503,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 2,
@@ -80,7 +77,7 @@ export function GlobeDemo() {
       endLat: 3.139,
       endLng: 101.6869,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 2,
@@ -89,7 +86,7 @@ export function GlobeDemo() {
       endLat: 36.162809,
       endLng: -115.119411,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 3,
@@ -98,7 +95,7 @@ export function GlobeDemo() {
       endLat: 22.3193,
       endLng: 114.1694,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 3,
@@ -107,7 +104,7 @@ export function GlobeDemo() {
       endLat: 40.7128,
       endLng: -74.006,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 3,
@@ -116,7 +113,7 @@ export function GlobeDemo() {
       endLat: 51.5072,
       endLng: -0.1276,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 4,
@@ -125,7 +122,7 @@ export function GlobeDemo() {
       endLat: -15.595412,
       endLng: -56.05918,
       arcAlt: 0.5,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 4,
@@ -134,7 +131,7 @@ export function GlobeDemo() {
       endLat: 22.3193,
       endLng: 114.1694,
       arcAlt: 0.7,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 4,
@@ -143,7 +140,7 @@ export function GlobeDemo() {
       endLat: 48.8566,
       endLng: -2.3522,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 5,
@@ -152,7 +149,7 @@ export function GlobeDemo() {
       endLat: 51.5072,
       endLng: -0.1276,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 5,
@@ -161,7 +158,7 @@ export function GlobeDemo() {
       endLat: -33.8688,
       endLng: 151.2093,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 5,
@@ -170,7 +167,7 @@ export function GlobeDemo() {
       endLat: 48.8566,
       endLng: -2.3522,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 6,
@@ -179,7 +176,7 @@ export function GlobeDemo() {
       endLat: 1.094136,
       endLng: -63.34546,
       arcAlt: 0.7,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 6,
@@ -188,7 +185,7 @@ export function GlobeDemo() {
       endLat: 35.6762,
       endLng: 139.6503,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 6,
@@ -197,7 +194,7 @@ export function GlobeDemo() {
       endLat: 51.5072,
       endLng: -0.1276,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 7,
@@ -206,7 +203,7 @@ export function GlobeDemo() {
       endLat: -15.595412,
       endLng: -56.05918,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 7,
@@ -215,7 +212,7 @@ export function GlobeDemo() {
       endLat: 52.52,
       endLng: 13.405,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 7,
@@ -224,7 +221,7 @@ export function GlobeDemo() {
       endLat: 34.0522,
       endLng: -118.2437,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 8,
@@ -233,7 +230,7 @@ export function GlobeDemo() {
       endLat: -33.936138,
       endLng: 18.436529,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 8,
@@ -242,7 +239,7 @@ export function GlobeDemo() {
       endLat: 52.3676,
       endLng: 4.9041,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 8,
@@ -251,7 +248,7 @@ export function GlobeDemo() {
       endLat: 40.7128,
       endLng: -74.006,
       arcAlt: 0.5,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 9,
@@ -260,7 +257,7 @@ export function GlobeDemo() {
       endLat: 34.0522,
       endLng: -118.2437,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 9,
@@ -269,7 +266,7 @@ export function GlobeDemo() {
       endLat: -22.9068,
       endLng: -43.1729,
       arcAlt: 0.7,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 9,
@@ -278,7 +275,7 @@ export function GlobeDemo() {
       endLat: -34.6037,
       endLng: -58.3816,
       arcAlt: 0.5,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 10,
@@ -287,7 +284,7 @@ export function GlobeDemo() {
       endLat: 28.6139,
       endLng: 77.209,
       arcAlt: 0.7,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 10,
@@ -296,7 +293,7 @@ export function GlobeDemo() {
       endLat: 31.2304,
       endLng: 121.4737,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 10,
@@ -305,7 +302,7 @@ export function GlobeDemo() {
       endLat: 52.3676,
       endLng: 4.9041,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 11,
@@ -314,7 +311,7 @@ export function GlobeDemo() {
       endLat: 34.0522,
       endLng: -118.2437,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 11,
@@ -323,7 +320,7 @@ export function GlobeDemo() {
       endLat: 31.2304,
       endLng: 121.4737,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 11,
@@ -332,7 +329,7 @@ export function GlobeDemo() {
       endLat: 1.3521,
       endLng: 103.8198,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 12,
@@ -341,7 +338,7 @@ export function GlobeDemo() {
       endLat: 37.7749,
       endLng: -122.4194,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 12,
@@ -350,7 +347,7 @@ export function GlobeDemo() {
       endLat: 22.3193,
       endLng: 114.1694,
       arcAlt: 0.2,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 12,
@@ -359,7 +356,7 @@ export function GlobeDemo() {
       endLat: 34.0522,
       endLng: -118.2437,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 13,
@@ -368,7 +365,7 @@ export function GlobeDemo() {
       endLat: 22.3193,
       endLng: 114.1694,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 13,
@@ -377,7 +374,7 @@ export function GlobeDemo() {
       endLat: 35.6762,
       endLng: 139.6503,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 13,
@@ -386,7 +383,7 @@ export function GlobeDemo() {
       endLat: -34.6037,
       endLng: -58.3816,
       arcAlt: 0.1,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
     {
       order: 14,
@@ -395,13 +392,13 @@ export function GlobeDemo() {
       endLat: 21.395643,
       endLng: 39.883798,
       arcAlt: 0.3,
-      color: colors[Math.floor(Math.random() * (colors.length - 1))],
+      color: colors[Math.floor(Math.random() * (colors.length - 1))]!,
     },
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black bg-white relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+    <div className="relative flex h-screen w-full flex-row items-center justify-center bg-white py-20 md:h-auto dark:bg-black">
+      <div className="relative mx-auto h-full w-full max-w-7xl overflow-hidden px-4 md:h-[40rem]">
         <motion.div
           initial={{
             opacity: 0,
@@ -416,29 +413,30 @@ export function GlobeDemo() {
           }}
           className="div"
         >
-          <h2 className="text-center text-2xl md:text-5xl font-bold text-black dark:text-white">
+          <h2 className="text-center text-2xl font-bold text-black md:text-5xl dark:text-white">
             Farnsworth Intelligence
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-            <TypeAnimation className="text-center text-base md:text-2xl font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto"
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'We provide global digital intelligence for law firms',
-        500, // wait 1s before replacing "Mice" with "Hamsters"
-        'We provide global digital intelligence for private investigators',
-        1000,
-        'We provide global digital intelligence for corporations',
-        1000,
-      ]}
-      wrapper="span"
-      speed={50}
-      style={{ display: 'inline-block' }}
-      repeat={Infinity}
-    />
+          <p className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200">
+            <TypeAnimation
+              className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-2xl dark:text-neutral-200"
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "We provide global digital intelligence for law firms",
+                500, // wait 1s before replacing "Mice" with "Hamsters"
+                "We provide global digital intelligence for private investigators",
+                1000,
+                "We provide global digital intelligence for corporations",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ display: "inline-block" }}
+              repeat={Infinity}
+            />
           </p>
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
-        <div className=" w-full -bottom-20 h-72 md:h-full z-10">
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-40 h-40 w-full select-none bg-gradient-to-b from-transparent to-white dark:to-black" />
+        <div className=" -bottom-20 z-10 h-72 w-full md:h-full">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
