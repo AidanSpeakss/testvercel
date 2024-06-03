@@ -418,7 +418,7 @@ export function GlobeDemo() {
           <h2 className="text-center text-2xl font-bold text-black md:text-5xl dark:text-white">
             Farnsworth Intelligence
           </h2>
-          <p className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200">
+          <p className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200 min-h-16">
             <TypeAnimation
               className={`${GeistMono.variable}` + 'mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-2xl dark:text-neutral-200'}
               sequence={[
@@ -439,6 +439,7 @@ export function GlobeDemo() {
             />
           </p>
         </motion.div>
+        
         <div className="pointer-events-none absolute inset-x-0 bottom-0 z-40 h-40 w-full select-none bg-gradient-to-b from-transparent to-white dark:to-black" />
         <div className="-bottom-20 z-10 h-72 w-full md:h-full">
           <World data={sampleArcs} globeConfig={globeConfig} />
