@@ -33,6 +33,7 @@ export default function HomePage() {
           <button className="mx-auto w-full" onClick={openInformationHandler}>
             <h1 className="text-center text-2xl font-bold text-white md:text-5xl">Contact Me</h1>
           </button>
+          <p className="w-full text-center text-base font-bold text-white md:text-lg">Full website coming soon!</p>
           {/*
            <div className={cn("flex flex-col gap-4 m-6 text-2xl transition-all overflow-hidden", opened ? "max-h-[500px]" : "max-h-0" )}>
             {/* <p>
@@ -52,7 +53,6 @@ export default function HomePage() {
           
         </div>
       </div>
-      <p className="w-full text-center text-2xl font-bold text-white md:text-5xl">Full website launch coming soon!</p>
     </main>
   );
 }
