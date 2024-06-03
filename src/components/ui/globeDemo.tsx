@@ -399,7 +399,7 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className={`${GeistSans}` + 'relative flex h-screen w-full flex-row items-center justify-center bg-white py-20 md:h-auto dark:bg-black'}>
+    <div className={`${GeistSans.variable}` + 'relative flex h-screen w-full flex-row items-center justify-center bg-white py-20 md:h-auto dark:bg-black'}>
       <div className="relative mx-auto h-full w-full max-w-7xl overflow-hidden px-4 md:h-[40rem]">
         <motion.div
           initial={{
@@ -420,7 +420,7 @@ export function GlobeDemo() {
           </h2>
           <p className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200">
             <TypeAnimation
-              className={`${GeistMono}` + 'mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-2xl dark:text-neutral-200'}
+              className={`${GeistMono.variable}` + 'mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-2xl dark:text-neutral-200'}
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "We provide global digital intelligence for law firms",
