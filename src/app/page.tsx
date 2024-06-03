@@ -30,7 +30,7 @@ export default function HomePage() {
       <div className="h-screen">
         <GlobeDemo></GlobeDemo>
         <div className={`${GeistSans.variable}` + ' mx-auto w-[80%] max-w-[1000px] flex-auto flex-col items-center'}>
-          <button className="mx-auto" onClick={openInformationHandler}>
+          <button className="mx-auto flex-auto items-center" onClick={openInformationHandler}>
             <h1 className="text-center text-2xl font-bold text-white md:text-5xl">Contact Me</h1>
           </button>
           <p className="text-center text-base text-white md:text-lg">Full website coming soon!</p>
