@@ -32,6 +32,7 @@ export default function HomePage() {
         <div className="mx-auto w-[80%] max-w-[1000px]">
           <button className="mx-auto w-full" onClick={openInformationHandler}>
             <h1 className="text-center m-6 text-4xl font-medium">Contact Me</h1>
+            <p>Full website launch coming soon!</p>
           </button>
           {/*
            <div className={cn("flex flex-col gap-4 m-6 text-2xl transition-all overflow-hidden", opened ? "max-h-[500px]" : "max-h-0" )}>
