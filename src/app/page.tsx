@@ -8,8 +8,8 @@ import { Globe } from "~/components/ui/globe";
 import { GlobeDemo } from "~/components/ui/globeDemo";
 import Typed from 'typed.js';
 import { cn } from "~/utils/cn";
-
 import { GeistSans } from "geist/font/sans";
+
 export default function HomePage() {
   const [opened, setOpened] = useState(false);
 
@@ -26,7 +26,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="h-screen w-full">
+    <main className={`${GeistSans.variable}` + 'h-screen w-full'}>
       <div className="h-screen">
         <GlobeDemo></GlobeDemo>
         <div className="mx-auto w-[80%] max-w-[1000px]">
