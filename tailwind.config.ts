@@ -7,6 +7,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-geist-sans)", ...fontFamily.sans],
+        lato: ["Lato", "sans-serif"],
+        // Add more custom font families as needed
       },
     },
   },
