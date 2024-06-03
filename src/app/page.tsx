@@ -9,7 +9,7 @@ import { GlobeDemo } from "~/components/ui/globeDemo";
 import Typed from 'typed.js';
 import { cn } from "~/utils/cn";
 
-
+import { GeistSans } from "geist/font/sans";
 export default function HomePage() {
   const [opened, setOpened] = useState(false);
 
