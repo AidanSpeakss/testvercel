@@ -422,11 +422,15 @@ export function GlobeDemo() {
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "We provide global digital intelligence for law firms",
-                500, // wait 1s before replacing "Mice" with "Hamsters"
-                "We provide global digital intelligence for private investigators",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "We provide global digital intelligence for private investigator firms",
                 1000,
                 "We provide global digital intelligence for corporations",
                 1000,
+                "We provide global digital intelligence for private military contractors",
+                1000,
+                "We provide global digital intelligence for people",
+                1000
               ]}
               wrapper="span"
               speed={50}
