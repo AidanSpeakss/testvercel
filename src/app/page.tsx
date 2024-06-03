@@ -31,7 +31,7 @@ export default function HomePage() {
         <GlobeDemo></GlobeDemo>
         <div className={`${GeistSans.variable}` + ' mx-auto w-[80%] max-w-[1000px]'}>
           <button className="mx-auto w-full" onClick={openInformationHandler}>
-            <h1 className="text-center text-2xl font-bold text-black md:text-5xl">Contact Me</h1>
+            <h1 className="text-center text-2xl font-bold text-white md:text-5xl">Contact Me</h1>
           </button>
           {/*
            <div className={cn("flex flex-col gap-4 m-6 text-2xl transition-all overflow-hidden", opened ? "max-h-[500px]" : "max-h-0" )}>
@@ -52,7 +52,7 @@ export default function HomePage() {
           
         </div>
       </div>
-      <p className="w-full text-center text-2xl font-bold text-black md:text-5xl">Full website launch coming soon!</p>
+      <p className="w-full text-center text-2xl font-bold text-white md:text-5xl">Full website launch coming soon!</p>
     </main>
   );
 }
