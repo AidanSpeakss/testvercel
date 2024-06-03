@@ -418,7 +418,7 @@ export function GlobeDemo() {
           <h2 className="text-center text-2xl font-bold text-black md:text-5xl dark:text-white">
             Farnsworth Intelligence
           </h2>
-          <p className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200 min-h-16">
+          <p className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200 min-h-20">
             <TypeAnimation
               className={`${GeistMono.variable}` + 'mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-2xl dark:text-neutral-200'}
               sequence={[
