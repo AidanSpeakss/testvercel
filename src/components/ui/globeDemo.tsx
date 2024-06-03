@@ -427,7 +427,11 @@ export function GlobeDemo() {
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "We provide global digital intelligence for private investigators",
                 1000,
+                "We provide global digital intelligence for private intelligence companies",
+                1000,
                 "We provide global digital intelligence for corporations",
+                1000,
+                "We provide global digital intelligence for governments",
                 1000,
                 "We provide global digital intelligence for people",
                 1000
