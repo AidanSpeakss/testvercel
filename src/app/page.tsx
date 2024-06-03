@@ -29,7 +29,7 @@ export default function HomePage() {
     <main className={`${GeistSans.variable}` + 'h-screen w-full'}>
       <div className="h-screen">
         <GlobeDemo></GlobeDemo>
-        <div className={`${GeistSans.variable}` + 'mx-auto w-[80%] max-w-[1000px]'}>
+        <div className={`${GeistSans.variable}` + ' mx-auto w-[80%] max-w-[1000px]'}>
           <button className="mx-auto w-full" onClick={openInformationHandler}>
             <h1 className="text-center m-6 text-4xl font-medium">Contact Me</h1>
             <p>Full website launch coming soon!</p>
