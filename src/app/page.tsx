@@ -29,11 +29,11 @@ export default function HomePage() {
     <main className={`${GeistSans.variable}` + 'h-screen w-full'}>
       <div className="h-screen">
         <GlobeDemo></GlobeDemo>
-        <div className={`${GeistSans.variable}` + ' mx-auto w-[80%] max-w-[1000px]'}>
-          <button className="mx-auto w-full" onClick={openInformationHandler}>
+        <div className={`${GeistSans.variable}` + ' mx-auto w-[80%] max-w-[1000px] flex-auto flex-col'}>
+          <button className="mx-auto" onClick={openInformationHandler}>
             <h1 className="text-center text-2xl font-bold text-white md:text-5xl">Contact Me</h1>
           </button>
-          <p className="w-full text-center text-base text-white md:text-lg">Full website coming soon!</p>
+          <p className="text-center text-base text-white md:text-lg">Full website coming soon!</p>
           {/*
            <div className={cn("flex flex-col gap-4 m-6 text-2xl transition-all overflow-hidden", opened ? "max-h-[500px]" : "max-h-0" )}>
             {/* <p>
