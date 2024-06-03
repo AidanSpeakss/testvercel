@@ -28,7 +28,7 @@ export default function HomePage() {
   return (
     <main className="h-screen w-full">
       <div className="h-screen">
-        <GlobeDemo className={`${GeistSans.variable}`}></GlobeDemo>
+        <GlobeDemo></GlobeDemo>
         <div className="mx-auto w-[80%] max-w-[1000px]">
           <button className="mx-auto w-full" onClick={openInformationHandler}>
             <h1 className="text-center m-6 text-4xl font-medium">Contact Me</h1>
