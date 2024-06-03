@@ -4,6 +4,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import { TypeAnimation } from "react-type-animation";
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
   ssr: false,
@@ -397,8 +399,8 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="relative flex h-screen w-full flex-row items-center justify-center bg-white py-20 md:h-auto dark:bg-black">
-      <div className="relative mx-auto h-full w-full max-w-7xl overflow-hidden px-4 md:h-[40rem]">
+    <div className="{`${GeistSans.variable}`} relative flex h-screen w-full flex-row items-center justify-center bg-white py-20 md:h-auto dark:bg-black">
+      <div className="{`${GeistSans.variable}`} relative mx-auto h-full w-full max-w-7xl overflow-hidden px-4 md:h-[40rem]">
         <motion.div
           initial={{
             opacity: 0,
@@ -413,12 +415,12 @@ export function GlobeDemo() {
           }}
           className="div"
         >
-          <h2 className="text-center text-2xl font-bold text-black md:text-5xl dark:text-white">
+          <h2 className="{`${GeistSans.variable}`} text-center text-2xl font-bold text-black md:text-5xl dark:text-white">
             Farnsworth Intelligence
           </h2>
-          <p className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200">
+          <p className="{`${GeistSans.variable}`} mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200">
             <TypeAnimation
-              className="mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-2xl dark:text-neutral-200"
+              className="{`${GeistSans.variable}`} mx-auto mt-2 max-w-md text-center text-base font-normal text-neutral-700 md:text-2xl dark:text-neutral-200"
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "We provide global digital intelligence for law firms",
@@ -437,8 +439,8 @@ export function GlobeDemo() {
             />
           </p>
         </motion.div>
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-40 h-40 w-full select-none bg-gradient-to-b from-transparent to-white dark:to-black" />
-        <div className=" -bottom-20 z-10 h-72 w-full md:h-full">
+        <div className="{`${GeistSans.variable}`} pointer-events-none absolute inset-x-0 bottom-0 z-40 h-40 w-full select-none bg-gradient-to-b from-transparent to-white dark:to-black" />
+        <div className="{`${GeistSans.variable}`} -bottom-20 z-10 h-72 w-full md:h-full">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
